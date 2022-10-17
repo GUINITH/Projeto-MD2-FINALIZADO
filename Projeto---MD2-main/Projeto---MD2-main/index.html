@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto MD2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <H1> BEM-VINDOS</H1>
+
+
+    <img src="img/hack.png" alt="hack img"><br></br><br></br>
+
+    <p><strong>Atenção:</strong> Escolha uma das opções Cifra de César ou Base64.</p>
+    
+    <p>Digite sua mensagem, click em uma das opções "Codificar ou Decodificar", escolha qualquer número para liberar a Chave.</P>
+
+      <p>Após seguir esses 3 processos aguarde o resultado da mensagem!</p>
+
+    <form name="formCriptografia">
+      <div class="container">
+        <label for="mensagem">Digite sua Mensagem:</label>
+        <input name="mensagem" id="mensagem" placeholder="Mensagem" />
+      </div>
+  
+      <div class="container">
+        <label for="criptografia">Escolha uma Opção:</label>
+        <select name="criptografia" id="criptografia">
+          <br></br><br></br>
+          <option value="base64">Base64</option>
+          <option value="cifra">Cifra de César</option>
+        </select>
+      </div>
+  
+      <div id="incrementoContainer">
+        <label for="incremento">Chave:</label>
+        <input name="incremento" id="incremento" placeholder="Chave">
+      </div>
+  
+      <div class="acao">
+        <input type="radio" name="acao" id="codificar" value="codificar" checked>
+        <label for="codificar">Codificar</label>
+        <input type="radio" name="acao" id="decodificar" value="decodificar">
+        <label for="decodificar"><Decodificar></label>
+      </div>
+  
+      <button type="submit">
+        Enviar Mensagem
+      </button>
+      <div id="resultado"><h1>Resultado</h1></div>
+    </form>
+    
+    <div id="container-imagem"></div>
+
+<script src="scripty.js"></script>
+</body>
+</html>
