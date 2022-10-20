@@ -1,0 +1,32 @@
+body{
+    background-color:green;
+    width: white;
+    padding: 10px 10px;
+    margin-top: 5px 5px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border: green;
+    border: solid;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.chave{
+    align-items: center;
+}
